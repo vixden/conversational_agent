@@ -16,6 +16,8 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - greetings
+    - nice to meet you
 
 - intent: goodbye
   examples: |
@@ -38,6 +40,19 @@ nlu:
     - of course
     - that sounds good
     - correct
+
+- intent: bevestig
+  examples: |
+    - ja 
+    - is goed
+    - prima
+    - top
+
+- intent: afwijzen
+  examples: |
+    - nee
+    - liever niet
+    - wil ik niet
 
 - intent: deny
   examples: |
@@ -89,3 +104,15 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: ziekmelden
+  examples: |
+    - ik ben ziek
+    - ik voel me ziek
+    - hoofdpijn
+    - buikpijn
+    - griep
+    - koorts
+    - ziekmelden
+    - niet lekker
+    - ziek
